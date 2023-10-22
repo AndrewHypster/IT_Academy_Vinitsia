@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 6px; /* ширина */
+  height: 10px;
+}
+body::-webkit-scrollbar-track {
+  /* задній фон */
+  background: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #9b9b9b; /* колір того що рухається */
+  border-radius: 3px;
+}
